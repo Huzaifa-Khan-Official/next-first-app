@@ -1,6 +1,12 @@
 import Link from 'next/link'
 import React from 'react'
 
+export const metadata = {
+  title: "All Products",
+  description: "All proucts page"
+};
+ 
+
 export default function page() {
   return (
     <div>

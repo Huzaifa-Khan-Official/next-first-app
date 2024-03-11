@@ -1,6 +1,12 @@
 import Link from 'next/link';
 import React from 'react'
 
+export const generateMetadata = async ({params}) => {
+  return {
+    title: `Product | ${params.productId}`
+  }
+}
+
 export default function page({params}) {
   return (
     <div>
