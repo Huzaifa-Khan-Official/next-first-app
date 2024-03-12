@@ -1,5 +1,10 @@
 .cardMainDiv .card:hover {
     transition: all .3s;
-    transform: scale(1.05);
+    transform: scale(1.04);
     cursor: pointer !important;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: fill;
 }
